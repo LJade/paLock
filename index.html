@@ -73,11 +73,11 @@
 			<nav id="navigation" class="hidden-sm hidden-xs">
 			    <ul id="main-nav" class="main-navigation">
 				<li class="current"><a href="#introduction">首页</a></li>
-				<li><a href="#about">店铺服务</a></li>
-				<li><a href="#portfolio">资质介绍</a></li>
-				<li><a href="#partners">案例展示</a></li>
-				<li><a href="#our-team">关于我们</a></li>
-				<li><a href="#contact">联系我们</a></li>
+				<li><a href="#about" class='myLink'>店铺服务</a></li>
+				<li><a href="#portfolio" class='myLink'> 资质介绍</a></li>
+				<li><a href="#partners" class='myLink'>案例展示</a></li>
+				<li><a href="#our-team" class='myLink'> 关于我们</a></li>
+				<li><a href="#contact" class='myLink'>联系我们</a></li>
 			    </ul>
 			</nav>
 			
@@ -675,5 +675,11 @@
         <script src="js/plugins.js"></script>
         <script src="js/custom.js"></script>
 
-    </body>
+	</body>
+	<script>
+	    $('.myLink').on('click',function(){
+			window.location.href = this.href
+			return false
+		})
+	</script>
 </html>
