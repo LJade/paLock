@@ -788,9 +788,12 @@ label {
   margin: 0 0 10px 0;
 }
 .contact-info > p {
-  margin-bottom: 60px;
+  margin-bottom: 5px;
   font-size: 15px;
   line-height: 28px;
+}
+.contact-info > p >img {
+  width: 200px;
 }
 .contact-info ul li {
   font-size: 15px;
