@@ -282,6 +282,9 @@ textarea:hover,
   -webkit-box-shadow: rgba(224, 77, 71, 0.5) 0px 0px 3px;
   box-shadow: rgba(224, 77, 71, 0.5) 0px 0px 3px;
 }
+textarea{
+  resize: none
+}
 
 label {
   font-size: 14px;
@@ -682,7 +685,8 @@ label {
   background-color: dimgray;
 }
 .partner-logo img {
-  padding: 30px;
+    width: 175px;
+    height: 115px;
 }
 
 #footer {
